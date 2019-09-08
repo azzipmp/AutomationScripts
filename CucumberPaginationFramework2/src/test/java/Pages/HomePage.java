@@ -21,7 +21,8 @@ public class HomePage {
 	WebElement usernametextfield;
 	@FindBy(name="userName1")
 	WebElement usernametextfield1;
-	
+	@FindBy(name="userName2")
+	WebElement usernametextfield2;
 	public HomePage(WebDriver driver)
 	{
 		this.driver=driver;
